@@ -1,0 +1,32 @@
+/* CSS cho Navigation Component */
+nav {
+    text-align: left;
+    background-color: #333; /* Màu nền của thanh điều hướng */
+    padding: 1px; /* Khoảng cách bên trong thanh điều hướng */
+  }
+  
+  ul {
+    list-style-type: none; /* Loại bỏ dấu chấm của danh sách */
+    margin: 0;
+    padding:revert;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 0px; /* Khoảng cách giữa các mục trong thanh điều hướng */
+  }
+  
+  a {
+    color: #fff; /* Màu chữ của các mục */
+    text-decoration: none; /* Loại bỏ gạch chân từ liên kết */
+    padding: 8px 16px; /* Kích thước của mỗi mục trong thanh điều hướng */
+    display: inline-block; /* Hiển thị mục liên kết như là một khối hộp nằm trong thanh điều hướng */
+    /*border: 1px solid #fff; /* Khung cho mỗi mục trong thanh điều hướng */
+    /*border-radius: 5px; /* Làm mềm góc của khung */
+    border-left: 2px ;
+  }
+  
+  a:hover {
+    background-color: #afd30d; /* Màu nền khi di chuột qua mục trong thanh điều hướng */
+  }
+  

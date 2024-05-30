@@ -1,0 +1,141 @@
+/* .Header {
+  background-color: #333;
+  padding: 0px;
+} */
+nav{
+  text-align: left;
+  background-color: #333; /* Màu nền của thanh điều hướng */
+  padding: 1px; /* Khoảng cách bên trong thanh điều hướng */
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  display: block;
+
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #beb813;
+}
+
+/* .active {
+  background-color: #c0be3d;
+} */
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.column {
+  flex: 0 0 30%;
+  margin: 10px;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border: 1px #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.title {
+  color: #333;
+  font-weight: bold;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 186px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #393a39;
+}
+
+
+
+.copyright {
+  background-color: rgb(172, 172, 30);
+}
+.copyright h5 {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup img{ width: 100%;}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {color: #06D85F;}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}

@@ -1,0 +1,14 @@
+/* Footer.css */
+
+/* Thiết lập nền vàng cho phần Footer */
+.footer-container {
+    background-color: yellow;
+  }
+  
+  /* Chỉnh màu chữ thành trắng cho phần Footer */
+  .footer-container div {
+    color: white;
+  }
+  
+  /* Các thuộc tính khác của Footer nếu cần */
+  

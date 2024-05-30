@@ -1,0 +1,45 @@
+/* CSS cho Player Component */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Chia không gian giữa các cột */
+  margin: 20px; /* Khoảng cách từ mép trang */
+}
+
+.column {
+  flex-basis: calc(33.33% - 20px); /* 33.33% chiều rộng của mỗi cột, trừ đi khoảng cách giữa các cột */
+  margin-bottom: 20px; /* Khoảng cách dưới cùng của mỗi cột */
+}
+
+.card {
+  border: 1px solid #ddd; /* Đường viền của thẻ */
+  border-radius: 8px; /* Làm mềm góc của thẻ */
+  padding: 10px; /* Khoảng cách bên trong thẻ */
+  text-align: center;
+}
+
+img {
+  width: 100%; /* Ảnh sẽ điền đầy vào thẻ */
+
+}
+
+h3 {
+  margin-top: 10px; /* Khoảng cách từ tiêu đề đến ảnh */
+}
+
+.title {
+  color: #777; /* Màu của tiêu đề phụ */
+}
+
+button {
+  background-color: #4caf50; /* Màu nền của nút */
+  color: white; /* Màu chữ của nút */
+  padding: 8px 16px; /* Kích thước của nút */
+  border: none; /* Loại bỏ đường viền của nút */
+  border-radius: 4px; /* Làm mềm góc của nút */
+  cursor: pointer; /* Hiển thị con trỏ khi di chuột qua nút */
+}
+
+button:hover {
+  background-color: #45a049; /* Màu nền khi di chuột qua nút */
+}
